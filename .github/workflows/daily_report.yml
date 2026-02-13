@@ -1,0 +1,33 @@
+name: Daily Paper Report Update
+
+on:
+  schedule:
+    # 毎日日本時間の午前6時（UTC 21:00）に実行
+    - cron: '0 21 * * *'
+  workflow_dispatch: # 手動で実行したい時用
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run fetch script
+        run: node fetch_papers.js
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./  # index.htmlがあるディレクトリを指定
+          publish_branch: gh-pages # 公開専用のブランチ

@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Run fetch script
-        run: node fetch_papers.js
+        run: node create_report.js
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

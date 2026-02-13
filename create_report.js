@@ -112,8 +112,8 @@ async function createReport() {
     htmlContent += `</body></html>`;
 
     // ファイルに保存
-    fs.writeFileSync('paper_report.html', htmlContent);
-    console.log('\n✅ paper_report.html を作成しました。ブラウザで開いて確認してください！');
+    fs.writeFileSync('index.html', htmlContent);
+    console.log('\n✅ index.html を作成しました。ブラウザで開いて確認してください！');
 }
 // --- 日付を安全に取得するための補助関数 ---
 function formatDate(item) {

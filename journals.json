@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Nature Photonics",
+        "url": "https://www.nature.com/nphoton.rss"
+    },
+    {
+        "name": "Nature Nanotechnology",
+        "url": "https://www.nature.com/nnano.rss"
+    },
+    {
+        "name": "Nature Communications",
+        "url": "https://www.nature.com/ncomms.rss"
+    },
+    {
+        "name": "APL (Applied Physics Letters)",
+        "url": "https://pubs.aip.org/rss/site_1000017/1000011.xml"
+    },
+    {
+        "name": "APL Photonics",
+        "url": "https://pubs.aip.org/rss/site_1000015/1000010.xml"
+    },
+    {
+        "name": "Optica (Optics Express)",
+        "url": "https://opg.optica.org/rss/opex_feed.xml"
+    },
+    {
+        "name": "Nano Letters (ACS)",
+        "url": "https://pubs.acs.org/action/showFeed?jc=nalefd&type=etoc&feed=rss"
+    },
+    {
+        "name": "Optica (Optics letters)",
+        "url": "https://opg.optica.org/rss/ol_feed.xml"
+    },
+    {
+        "name": "Light: Science & Applications",
+        "url": "https://www.nature.com/lsa.rss"
+    },
+    {
+        "name": "Scientific Reports",
+        "url": "https://www.nature.com/srep.rss"
+    },
+    {
+        "name": "Physical Review Letters",
+        "url": "https://feeds.aps.org/rss/tocsec/PRL-AtomicMolecularandOpticalPhysics.xml?_gl=1*14avolp*_gcl_au*MTcwODMwNTUwOC4xNzY3NjAzNTc1*_ga*MTY3MDYxNzY2NS4xNzY3NjAzNTc1*_ga_ZS5V2B2DR1*czE3NzA5ODYxMjYkbzE4JGcxJHQxNzcwOTg2MzE1JGo1MSRsMCRoMzc2MzcxOTQ5"
+    }
+]
